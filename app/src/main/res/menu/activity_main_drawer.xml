@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_couns"
+            android:icon="@drawable/counsellor"
+            android:title="Connect To Counsellor" />
+
+    </group>
+
+    <item android:title="Get Information">
+        <item android:title="HIV AND AIDS">
+
+        <menu>
+            <item
+                android:id="@+id/nav_hivart"
+                android:icon="@drawable/articles"
+                android:title="Articles" />
+            <item
+                android:id="@+id/nav_hivvid"
+                android:icon="@drawable/video"
+                android:title="Videos" />
+            <item
+                android:id="@+id/nav_hivaud"
+                android:icon="@drawable/audio"
+                android:title="Audio" />
+        </menu>
+    </item>
+        <item android:title="SEXUAL EDUCATION">
+
+        <menu>
+            <item
+                android:id="@+id/nav_sexart"
+                android:icon="@drawable/articles"
+                android:title="Articles" />
+            <item
+                android:id="@+id/nav_sexvid"
+                android:icon="@drawable/video"
+                android:title="Videos" />
+            <item
+                android:id="@+id/nav_sexaud"
+                android:icon="@drawable/audio"
+                android:title="Audio" />
+        </menu>
+    </item>
+        <item android:title="DRUGS AND SUBSTANCE ABUSE">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_drugart"
+                    android:icon="@drawable/articles"
+                    android:title="Articles" />
+                <item
+                    android:id="@+id/nav_drugvid"
+                    android:icon="@drawable/video"
+                    android:title="Videos" />
+                <item
+                    android:id="@+id/nav_drugaud"
+                    android:icon="@drawable/audio"
+                    android:title="Audio" />
+            </menu>
+        </item>
+        <item android:title="HEALTH EDUCATION">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_eduart"
+                    android:icon="@drawable/articles"
+                    android:title="Articles" />
+                <item
+                    android:id="@+id/nav_eduvid"
+                    android:icon="@drawable/video"
+                    android:title="Videos" />
+                <item
+                    android:id="@+id/nav_eduaud"
+                    android:icon="@drawable/audio"
+                    android:title="Audio" />
+            </menu>
+        </item>
+        <item android:title="Communicate">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_feed"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Feedback" />
+
+            </menu>
+        </item>
+    </item>
+</menu>
